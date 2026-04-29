@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c3e323dd-4192-4913-9dd9-50819bb1ad6e}</ProjectGuid>
-    <RootNamespace>WindowsProject1</RootNamespace>
+    <ProjectGuid>{11b65c12-c9b9-4006-875b-625f4a03cd65}</ProjectGuid>
+    <RootNamespace>SoftwareRenderer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -133,28 +133,28 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="Image.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="SoftwareRenderer.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Triangle.h" />
     <ClInclude Include="Vector2.h" />
     <ClInclude Include="Vector3.h" />
     <ClInclude Include="Vertex.h" />
-    <ClInclude Include="WindowsProject1.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="Commons.cpp" />
     <ClCompile Include="FColor.cpp" />
     <ClCompile Include="Image.cpp" />
+    <ClCompile Include="SoftwareRenderer.cpp" />
     <ClCompile Include="Texture.cpp" />
-    <ClCompile Include="WindowsProject1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="WindowsProject1.rc" />
+    <ResourceCompile Include="SoftwareRenderer.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico" />
-    <Image Include="WindowsProject1.ico" />
+    <Image Include="SoftwareRenderer.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
