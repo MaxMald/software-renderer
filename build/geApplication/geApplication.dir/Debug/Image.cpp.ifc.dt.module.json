@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geApplication.dir\\Debug\\Image.obj",
+            "outputs": [
+                "geApplication.dir\\Debug\\Image.cpp.ifc.dt.module.json",
+                "geApplication.dir\\Debug\\Image.cpp.ifc.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

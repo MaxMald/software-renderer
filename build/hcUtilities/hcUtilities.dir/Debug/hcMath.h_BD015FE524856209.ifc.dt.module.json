@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcMath.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcMath.h_BD015FE524856209.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcMath.h_BD015FE524856209.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcMath.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcMath.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcmath.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

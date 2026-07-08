@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "imgui.dir\\Debug\\ImGuiFileDialog.obj",
+            "outputs": [
+                "imgui.dir\\Debug\\ImGuiFileDialog.h_97C11BA6DC244C81.ifc.dt.module.json",
+                "imgui.dir\\Debug\\ImGuiFileDialog.h_97C11BA6DC244C81.ifc.dt.d.json",
+                "imgui.dir\\Debug\\ImGuiFileDialog.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\dependencies\\IMGUI\\include\\ImGuiFileDialog.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\dependencies\\imgui\\include\\imguifiledialog.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

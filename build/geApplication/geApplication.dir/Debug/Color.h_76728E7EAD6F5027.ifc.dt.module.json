@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geApplication.dir\\Debug\\Color.obj",
+            "outputs": [
+                "geApplication.dir\\Debug\\Color.h_76728E7EAD6F5027.ifc.dt.module.json",
+                "geApplication.dir\\Debug\\Color.h_76728E7EAD6F5027.ifc.dt.d.json",
+                "geApplication.dir\\Debug\\Color.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geApplication\\include\\Color.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\color.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

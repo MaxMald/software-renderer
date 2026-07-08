@@ -1,0 +1,41 @@
+﻿  Building Custom Rule F:/Repositories/MaxMald/software-renderer/hcUtilities/CMakeLists.txt
+  Scanning sources for module dependencies...
+  hcFileUtilities.cpp
+  hcMemory.cpp
+  hcLogService.cpp
+  hcBinaryWriter.cpp
+  hcBinaryReader.cpp
+  hcJsonParsers.cpp
+  hcStackStorage.cpp
+  hcJson.cpp
+  hcTransform.cpp
+  hcJsonFormattedValue.cpp
+  hcClock.cpp
+  hcJsonObjectBuilder.cpp
+  hcTime.cpp
+  hcJsonArrayBuilder.cpp
+  hcUUID.cpp
+  hcISerializable.cpp
+  hcPoolStorage.cpp
+  Compiling...
+  hcLogService.cpp
+  hcClock.cpp
+  hcJsonFormattedValue.cpp
+  hcMemory.cpp
+  hcJson.cpp
+  hcJsonArrayBuilder.cpp
+  hcTransform.cpp
+  hcJsonObjectBuilder.cpp
+  hcUUID.cpp
+  hcBinaryWriter.cpp
+  hcBinaryReader.cpp
+  hcPoolStorage.cpp
+  hcFileUtilities.cpp
+  hcISerializable.cpp
+  hcStackStorage.cpp
+  hcJsonParsers.cpp
+  hcTime.cpp
+     Creating library F:/Repositories/MaxMald/software-renderer/build/lib/Debug/hcUtilities-d.lib and object F:/Repositories/MaxMald/software-renderer/build/lib/Debug/hcUtilities-d.exp
+  hcUtilities.vcxproj -> F:\Repositories\MaxMald\software-renderer\build\bin\Debug\hcUtilities-d.dll
+  "pwsh.exe" no se reconoce como un comando interno o externo,
+  programa o archivo por lotes ejecutable.

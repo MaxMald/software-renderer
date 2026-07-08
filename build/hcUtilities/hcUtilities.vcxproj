@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0161F704-F64E-3019-99C0-5814C079AF0B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>hcUtilities</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Repositories\MaxMald\software-renderer\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hcUtilities.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hcUtilities-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Repositories\MaxMald\software-renderer\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hcUtilities.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hcUtilities</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Repositories\MaxMald\software-renderer\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hcUtilities.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hcUtilities</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Repositories\MaxMald\software-renderer\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hcUtilities.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hcUtilities</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_MBCS;CMAKE_INTDIR="Debug";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MBCS;CMAKE_INTDIR=\"Debug\";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/Repositories/MaxMald/software-renderer/build/lib/Debug/hcUtilities-d.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/Repositories/MaxMald/software-renderer/build/bin/Debug/hcUtilities-d.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="Release";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"Release\";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/Repositories/MaxMald/software-renderer/build/lib/Release/hcUtilities.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/Repositories/MaxMald/software-renderer/build/bin/Release/hcUtilities.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="MinSizeRel";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"MinSizeRel\";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/Repositories/MaxMald/software-renderer/build/lib/MinSizeRel/hcUtilities.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/Repositories/MaxMald/software-renderer/build/bin/MinSizeRel/hcUtilities.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SDLCheck>true</SDLCheck>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="RelWithDebInfo";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"RelWithDebInfo\";hcUtilities_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Repositories\MaxMald\software-renderer\hcUtilities\include;F:\Repositories\MaxMald\software-renderer\dependencies\NLOHMANN_JSON\include;F:\Repositories\MaxMald\software-renderer\dependencies\STDUUID\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>F:/Repositories/MaxMald/software-renderer/build/lib/RelWithDebInfo/hcUtilities.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>F:/Repositories/MaxMald/software-renderer/build/bin/RelWithDebInfo/hcUtilities.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Repositories/MaxMald/software-renderer/hcUtilities/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Repositories/MaxMald/software-renderer -BF:/Repositories/MaxMald/software-renderer/build --check-stamp-file F:/Repositories/MaxMald/software-renderer/build/hcUtilities/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Repositories\MaxMald\software-renderer\build\hcUtilities\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Repositories/MaxMald/software-renderer/hcUtilities/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Repositories/MaxMald/software-renderer -BF:/Repositories/MaxMald/software-renderer/build --check-stamp-file F:/Repositories/MaxMald/software-renderer/build/hcUtilities/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Repositories\MaxMald\software-renderer\build\hcUtilities\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Repositories/MaxMald/software-renderer/hcUtilities/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Repositories/MaxMald/software-renderer -BF:/Repositories/MaxMald/software-renderer/build --check-stamp-file F:/Repositories/MaxMald/software-renderer/build/hcUtilities/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Repositories\MaxMald\software-renderer\build\hcUtilities\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Repositories/MaxMald/software-renderer/hcUtilities/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Repositories/MaxMald/software-renderer -BF:/Repositories/MaxMald/software-renderer/build --check-stamp-file F:/Repositories/MaxMald/software-renderer/build/hcUtilities/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Repositories\MaxMald\software-renderer\build\hcUtilities\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\hcJsonFormattedValue.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcClock.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcFileUtilities.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJson.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJsonArrayBuilder.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJsonObjectBuilder.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJsonParsers.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcLogService.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcTime.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcTransform.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcUUID.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\io\hcBinaryReader.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\io\hcBinaryWriter.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\io\hcISerializable.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\memory\hcMemory.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\memory\hcPoolStorage.cpp" />
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\memory\hcStackStorage.cpp" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcAModule.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcAngle.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcBitUtilities.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcBuffer.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcClock.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcColor.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcDependencyContainer.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcExceptionsAliases.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcFileUtilities.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcIDependencyResolvable.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcIJsonProperty.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcILogServiceListener.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcId.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJson.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonArrayBuilder.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonFromattedValue.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonObjectBuilder.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonParsers.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcLogService.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMath.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMatrix2.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMatrix3.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMatrix4.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcNonCopyable.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcNonMovable.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcPlatformConfiguration.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcRect.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcServiceManager.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcString.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcTime.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcTransform.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcTypeAliases.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUUID.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUtilities.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUtilitiesLibraryConfiguration.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUtilitiesPrerequisites.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcVector2.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcVector3.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcVector4.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\io\hcBinaryReader.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\io\hcBinaryWriter.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\io\hcISerializable.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcMemory.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcPoolAllocator.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcPoolStorage.h" />
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcStackStorage.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\Repositories\MaxMald\software-renderer\build\ZERO_CHECK.vcxproj">
+      <Project>{A160B00B-8885-35EE-B314-9592CA38E7C3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

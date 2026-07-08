@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\hcJsonFormattedValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcClock.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcFileUtilities.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJson.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJsonArrayBuilder.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJsonObjectBuilder.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcJsonParsers.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcLogService.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcTime.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcTransform.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcUUID.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\io\hcBinaryReader.cpp">
+      <Filter>Source Files\utilities\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\io\hcBinaryWriter.cpp">
+      <Filter>Source Files\utilities\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\io\hcISerializable.cpp">
+      <Filter>Source Files\utilities\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\memory\hcMemory.cpp">
+      <Filter>Source Files\utilities\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\memory\hcPoolStorage.cpp">
+      <Filter>Source Files\utilities\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\memory\hcStackStorage.cpp">
+      <Filter>Source Files\utilities\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcAModule.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcAngle.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcBitUtilities.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcBuffer.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcClock.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcColor.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcDependencyContainer.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcExceptionsAliases.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcFileUtilities.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcIDependencyResolvable.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcIJsonProperty.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcILogServiceListener.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcId.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJson.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonArrayBuilder.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonFromattedValue.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonObjectBuilder.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcJsonParsers.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcLogService.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMath.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMatrix2.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMatrix3.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcMatrix4.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcNonCopyable.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcNonMovable.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcPlatformConfiguration.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcRect.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcServiceManager.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcString.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcTime.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcTransform.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcTypeAliases.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUUID.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUtilities.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUtilitiesLibraryConfiguration.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcUtilitiesPrerequisites.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcVector2.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcVector3.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcVector4.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\io\hcBinaryReader.h">
+      <Filter>Header Files\hc\utilities\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\io\hcBinaryWriter.h">
+      <Filter>Header Files\hc\utilities\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\io\hcISerializable.h">
+      <Filter>Header Files\hc\utilities\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcMemory.h">
+      <Filter>Header Files\hc\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcPoolAllocator.h">
+      <Filter>Header Files\hc\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcPoolStorage.h">
+      <Filter>Header Files\hc\utilities\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcStackStorage.h">
+      <Filter>Header Files\hc\utilities\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{03492E82-96B2-3811-B20F-861EF65F888D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hc">
+      <UniqueIdentifier>{1249A194-10CF-3FBF-A9C4-D635ED1F7D03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hc\utilities">
+      <UniqueIdentifier>{FC7159EC-98FA-398F-88F3-F526A5714039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hc\utilities\io">
+      <UniqueIdentifier>{599E5481-5E46-3E32-BBA4-9855F408E635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hc\utilities\memory">
+      <UniqueIdentifier>{560B1DF3-81E8-3A39-AFE4-EFA48C6B1DAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F3670CF-D7DF-3797-B111-91DA7D3F96F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities">
+      <UniqueIdentifier>{0386C6C9-1CF1-3F82-A1E5-5D31516122D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities\io">
+      <UniqueIdentifier>{95865D5C-F423-34CD-9539-38C6D107CCCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities\memory">
+      <UniqueIdentifier>{299450CE-157C-3EE0-8D89-A754F2F6097B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

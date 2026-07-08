@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcString.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcString.h_DA83BCE5BA7CB486.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcString.h_DA83BCE5BA7CB486.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcString.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcString.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcstring.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

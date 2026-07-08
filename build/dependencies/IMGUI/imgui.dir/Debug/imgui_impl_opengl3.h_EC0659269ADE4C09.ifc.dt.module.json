@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "imgui.dir\\Debug\\imgui_impl_opengl3.obj",
+            "outputs": [
+                "imgui.dir\\Debug\\imgui_impl_opengl3.h_EC0659269ADE4C09.ifc.dt.module.json",
+                "imgui.dir\\Debug\\imgui_impl_opengl3.h_EC0659269ADE4C09.ifc.dt.d.json",
+                "imgui.dir\\Debug\\imgui_impl_opengl3.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\dependencies\\IMGUI\\include\\imgui_impl_opengl3.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\dependencies\\imgui\\include\\imgui_impl_opengl3.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

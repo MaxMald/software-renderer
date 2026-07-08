@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcBinaryWriter.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcBinaryWriter.h_7480E71955068295.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcBinaryWriter.h_7480E71955068295.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcBinaryWriter.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\io\\hcBinaryWriter.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\io\\hcbinarywriter.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+^F:\REPOSITORIES\MAXMALD\SOFTWARE-RENDERER\BUILD\CMAKEFILES\7DC7779E988E4D7E1D165CFFF422BBE0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Repositories/MaxMald/software-renderer -BF:/Repositories/MaxMald/software-renderer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/Repositories/MaxMald/software-renderer/build/GraphicsEngine.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcISerializable.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcISerializable.h_9BE1D3043F0CDDB9.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcISerializable.h_9BE1D3043F0CDDB9.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcISerializable.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\io\\hcISerializable.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\io\\hciserializable.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

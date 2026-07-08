@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcPoolStorage.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcPoolStorage.cpp.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcPoolStorage.cpp.ifc.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcJsonObjectBuilder.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcJsonObjectBuilder.h_AB983F96C58F7D19.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcJsonObjectBuilder.h_AB983F96C58F7D19.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcJsonObjectBuilder.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcJsonObjectBuilder.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcjsonobjectbuilder.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcLogService.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcLogService.h_724598B87EF1A65E.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcLogService.h_724598B87EF1A65E.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcLogService.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcLogService.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hclogservice.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcPlatformConfiguration.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcPlatformConfiguration.h_F7858C0AE11977BE.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcPlatformConfiguration.h_F7858C0AE11977BE.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcPlatformConfiguration.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcPlatformConfiguration.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcplatformconfiguration.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcDependencyContainer.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcDependencyContainer.h_4139F1CB233D822D.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcDependencyContainer.h_4139F1CB233D822D.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcDependencyContainer.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcDependencyContainer.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcdependencycontainer.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

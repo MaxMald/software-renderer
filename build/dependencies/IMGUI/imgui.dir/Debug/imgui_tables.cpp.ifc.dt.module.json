@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "imgui.dir\\Debug\\imgui_tables.obj",
+            "outputs": [
+                "imgui.dir\\Debug\\imgui_tables.cpp.ifc.dt.module.json",
+                "imgui.dir\\Debug\\imgui_tables.cpp.ifc.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

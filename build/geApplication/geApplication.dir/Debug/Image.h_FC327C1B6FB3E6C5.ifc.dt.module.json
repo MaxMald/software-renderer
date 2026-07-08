@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geApplication.dir\\Debug\\Image.obj",
+            "outputs": [
+                "geApplication.dir\\Debug\\Image.h_FC327C1B6FB3E6C5.ifc.dt.module.json",
+                "geApplication.dir\\Debug\\Image.h_FC327C1B6FB3E6C5.ifc.dt.d.json",
+                "geApplication.dir\\Debug\\Image.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geApplication\\include\\Image.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\image.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

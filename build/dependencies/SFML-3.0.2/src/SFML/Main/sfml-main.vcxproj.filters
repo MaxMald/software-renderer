@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\SFML-3.0.2\src\SFML\Main\MainWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Repositories\MaxMald\software-renderer\dependencies\SFML-3.0.2\src\SFML\Main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F3670CF-D7DF-3797-B111-91DA7D3F96F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

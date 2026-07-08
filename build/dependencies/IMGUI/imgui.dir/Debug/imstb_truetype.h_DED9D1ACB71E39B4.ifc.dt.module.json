@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "imgui.dir\\Debug\\imstb_truetype.obj",
+            "outputs": [
+                "imgui.dir\\Debug\\imstb_truetype.h_DED9D1ACB71E39B4.ifc.dt.module.json",
+                "imgui.dir\\Debug\\imstb_truetype.h_DED9D1ACB71E39B4.ifc.dt.d.json",
+                "imgui.dir\\Debug\\imstb_truetype.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\dependencies\\IMGUI\\include\\imstb_truetype.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\dependencies\\imgui\\include\\imstb_truetype.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

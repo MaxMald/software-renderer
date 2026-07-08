@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "imgui.dir\\Debug\\imgui.obj",
+            "outputs": [
+                "imgui.dir\\Debug\\imgui.h_34265B5FA9C769FB.ifc.dt.module.json",
+                "imgui.dir\\Debug\\imgui.h_34265B5FA9C769FB.ifc.dt.d.json",
+                "imgui.dir\\Debug\\imgui.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\dependencies\\IMGUI\\include\\imgui.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\dependencies\\imgui\\include\\imgui.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

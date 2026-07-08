@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geApplication.dir\\Debug\\SoftwareRenderer.obj",
+            "outputs": [
+                "geApplication.dir\\Debug\\SoftwareRenderer.h_8C02D4FA4D6813BE.ifc.dt.module.json",
+                "geApplication.dir\\Debug\\SoftwareRenderer.h_8C02D4FA4D6813BE.ifc.dt.d.json",
+                "geApplication.dir\\Debug\\SoftwareRenderer.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geApplication\\include\\SoftwareRenderer.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\softwarerenderer.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

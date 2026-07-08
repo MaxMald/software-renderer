@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\ImGuiFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\ImGuizmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\src\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\ImGuiFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\ImGuiFileDialogConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\ImGuizmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\include\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Repositories\MaxMald\software-renderer\dependencies\IMGUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{03492E82-96B2-3811-B20F-861EF65F888D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F3670CF-D7DF-3797-B111-91DA7D3F96F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

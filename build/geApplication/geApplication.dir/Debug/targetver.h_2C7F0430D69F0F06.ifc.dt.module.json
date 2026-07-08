@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geApplication.dir\\Debug\\targetver.obj",
+            "outputs": [
+                "geApplication.dir\\Debug\\targetver.h_2C7F0430D69F0F06.ifc.dt.module.json",
+                "geApplication.dir\\Debug\\targetver.h_2C7F0430D69F0F06.ifc.dt.d.json",
+                "geApplication.dir\\Debug\\targetver.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geApplication\\include\\targetver.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\targetver.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcBitUtilities.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcBitUtilities.h_289AF90B86DC3562.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcBitUtilities.h_289AF90B86DC3562.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcBitUtilities.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcBitUtilities.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcbitutilities.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

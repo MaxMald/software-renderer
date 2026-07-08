@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcPoolStorage.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcPoolStorage.h_FB88111C42074115.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcPoolStorage.h_FB88111C42074115.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcPoolStorage.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\memory\\hcPoolStorage.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\memory\\hcpoolstorage.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

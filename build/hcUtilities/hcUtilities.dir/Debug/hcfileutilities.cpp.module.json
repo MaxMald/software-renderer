@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcFileUtilities.obj",
+            "outputs": [
+                "F:\\Repositories\\MaxMald\\software-renderer\\build\\hcUtilities\\hcUtilities.dir\\Debug\\vc145.pdb",
+                "hcUtilities.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

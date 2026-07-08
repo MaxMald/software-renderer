@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcJsonArrayBuilder.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcJsonArrayBuilder.h_FB26501064D41E99.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcJsonArrayBuilder.h_FB26501064D41E99.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcJsonArrayBuilder.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcJsonArrayBuilder.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcjsonarraybuilder.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

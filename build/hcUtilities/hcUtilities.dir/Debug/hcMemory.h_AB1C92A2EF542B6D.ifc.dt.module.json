@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcMemory.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcMemory.h_AB1C92A2EF542B6D.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcMemory.h_AB1C92A2EF542B6D.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcMemory.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\memory\\hcMemory.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\memory\\hcmemory.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

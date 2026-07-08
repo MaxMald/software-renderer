@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "imgui.dir\\Debug\\imgui_impl_win32.obj",
+            "outputs": [
+                "imgui.dir\\Debug\\imgui_impl_win32.cpp.ifc.dt.module.json",
+                "imgui.dir\\Debug\\imgui_impl_win32.cpp.ifc.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

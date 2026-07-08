@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcNonCopyable.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcNonCopyable.h_C25262D4549FDF27.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcNonCopyable.h_C25262D4549FDF27.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcNonCopyable.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcNonCopyable.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcnoncopyable.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

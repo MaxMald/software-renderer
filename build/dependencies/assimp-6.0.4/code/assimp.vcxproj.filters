@@ -1,0 +1,1970 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Compression.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\IOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\material.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\AssertHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Exceptional.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Base64.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Geometry\GeometryUtils.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ArmaturePopulate.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\SplitByBoneCountProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTFCommon\glTFCommon.cpp">
+      <Filter>glTFCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AMF\AMFImporter.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AMF\AMFImporter_Material.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3DS\3DSConverter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3DS\3DSLoader.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AC\ACLoader.cpp">
+      <Filter>AssetLib\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\ASE\ASELoader.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\ASE\ASEParser.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assbin\AssbinLoader.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\B3D\B3DImporter.cpp">
+      <Filter>AssetLib\B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\BVH\BVHLoader.cpp">
+      <Filter>AssetLib\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaHelper.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaLoader.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaParser.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\DXF\DXFLoader.cpp">
+      <Filter>AssetLib\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\CSM\CSMLoader.cpp">
+      <Filter>AssetLib\CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\HMP\HMPLoader.cpp">
+      <Filter>AssetLib\HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Irr\IRRMeshLoader.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Irr\IRRShared.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IQM\IQMImporter.cpp">
+      <Filter>AssetLib\IQM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Irr\IRRLoader.cpp">
+      <Filter>AssetLib\IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWO\LWOAnimation.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWO\LWOBLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWO\LWOLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWO\LWOMaterial.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWS\LWSLoader.cpp">
+      <Filter>AssetLib\LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD2\MD2Loader.cpp">
+      <Filter>AssetLib\MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD3\MD3Loader.cpp">
+      <Filter>AssetLib\MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD5\MD5Loader.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD5\MD5Parser.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDC\MDCLoader.cpp">
+      <Filter>AssetLib\MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\MDLMaterialLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\NFF\NFFLoader.cpp">
+      <Filter>AssetLib\NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\NDO\NDOLoader.cpp">
+      <Filter>AssetLib\NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\OFF\OFFLoader.cpp">
+      <Filter>AssetLib\OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjFileImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjFileParser.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreImporter.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreStructs.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreMaterial.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ply\PlyLoader.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ply\PlyParser.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MS3D\MS3DLoader.cpp">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\COB\COBLoader.cpp">
+      <Filter>AssetLib\COB</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderLoader.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderDNA.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderScene.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderModifier.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderBMesh.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderTessellator.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderCustomData.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCLoader.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCUtil.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCGeometry.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCMaterial.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCProfile.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCCurve.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCBoolean.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCOpenings.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\XGL\XGLLoader.cpp">
+      <Filter>AssetLib\XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXImporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXParser.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXConverter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXDocument.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXProperties.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXMeshGeometry.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXMaterial.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXModel.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXAnimation.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXNodeAttribute.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXDeformer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXDocumentUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Q3D\Q3DLoader.cpp">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Raw\RawLoader.cpp">
+      <Filter>AssetLib\RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\SIB\SIBImporter.cpp">
+      <Filter>AssetLib\SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\SMD\SMDLoader.cpp">
+      <Filter>AssetLib\SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STL\STLLoader.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Terragen\TerragenLoader.cpp">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Unreal\UnrealLoader.cpp">
+      <Filter>AssetLib\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X\XFileImporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X\XFileParser.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Group.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Light.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Networking.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Shape.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DGeoHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DXmlHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\VRML\VrmlConverter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFImporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2Importer.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\XmlSerializer.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\D3MFImporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\D3MFOpcPackage.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MMD\MMDImporter.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MMD\MMDPmxParser.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjExporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ply\PlyExporter.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3DS\3DSExporter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assbin\AssbinExporter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assbin\AssbinFileWriter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assxml\AssxmlExporter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaExporter.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXExporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXExportNode.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXExportProperty.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STL\STLExporter.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X\XFileExporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DExporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFExporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2Exporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\D3MFExporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Pbrt\PbrtExporter.cpp">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assjson\cencode.c">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assjson\json_exporter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assjson\mesh_splitter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Step\StepExporter.cpp">
+      <Filter>AssetLib\STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\pugixml\src\pugixml.cpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\StbCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Compression.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Maybe.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\StackAllocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\StackAllocator.inl">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Geometry\GeometryUtils.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\ArmaturePopulate.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\PostProcessing\SplitByBoneCountProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTFCommon\glTFCommon.h">
+      <Filter>glTFCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AMF\AMFImporter.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AMF\AMFImporter_Node.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3DS\3DSHelper.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3DS\3DSLoader.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\AC\ACLoader.h">
+      <Filter>AssetLib\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\ASE\ASELoader.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\ASE\ASEParser.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assbin\AssbinLoader.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\B3D\B3DImporter.h">
+      <Filter>AssetLib\B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\BVH\BVHLoader.h">
+      <Filter>AssetLib\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaHelper.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaLoader.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaParser.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\DXF\DXFLoader.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\DXF\DXFHelper.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\CSM\CSMLoader.h">
+      <Filter>AssetLib\CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\HMP\HMPFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\HMP\HMPLoader.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\HMP\HalfLifeFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Irr\IRRMeshLoader.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Irr\IRRShared.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IQM\iqm.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IQM\IQMImporter.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Irr\IRRLoader.h">
+      <Filter>AssetLib\IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWO\LWOAnimation.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWO\LWOFileData.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWO\LWOLoader.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\LWS\LWSLoader.h">
+      <Filter>AssetLib\LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD2\MD2FileData.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD2\MD2Loader.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD2\MD2NormalTable.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD3\MD3FileData.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD3\MD3Loader.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD5\MD5Loader.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MD5\MD5Parser.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDC\MDCFileData.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDC\MDCLoader.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDC\MDCNormalTable.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\MDLDefaultColorMap.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\MDLFileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HL1DataBuffer.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HL1FileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\LogFunctions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\NFF\NFFLoader.h">
+      <Filter>AssetLib\NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\NDO\NDOLoader.h">
+      <Filter>AssetLib\NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\OFF\OFFLoader.h">
+      <Filter>AssetLib\OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjFileData.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjFileImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjFileMtlImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjFileParser.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjTools.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreImporter.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreStructs.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreParsingUtils.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreBinarySerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ogre\OgreXmlSerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\OpenGEX\OpenGEXImporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\OpenGEX\OpenGEXStructs.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ply\PlyLoader.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ply\PlyParser.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MS3D\MS3DLoader.h">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\COB\COBLoader.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\COB\COBScene.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderLoader.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderDNA.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderDNA.inl">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderScene.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderSceneGen.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderIntermediate.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderModifier.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderBMesh.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderTessellator.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Blender\BlenderCustomData.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCLoader.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCReaderGen_2x3.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\IFC\IFCUtil.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\XGL\XGLLoader.h">
+      <Filter>AssetLib\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXCompileConfig.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXImporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXParser.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXTokenizer.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXImportSettings.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXConverter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXDocument.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXProperties.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXMeshGeometry.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Q3D\Q3DLoader.h">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Q3BSP\Q3BSPFileData.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Raw\RawLoader.h">
+      <Filter>AssetLib\RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\SIB\SIBImporter.h">
+      <Filter>AssetLib\SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\SMD\SMDLoader.h">
+      <Filter>AssetLib\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STL\STLLoader.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Terragen\TerragenLoader.h">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Unreal\UnrealLoader.h">
+      <Filter>AssetLib\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X\XFileHelper.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X\XFileImporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X\XFileParser.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Macro.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DImporter_Node.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DGeoHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DXmlHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFAsset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFAsset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFAssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFAssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFImporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2Asset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2Asset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2AssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2Importer.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\3MFTypes.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\XmlSerializer.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\D3MFImporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\D3MFOpcPackage.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\3MFXmlTags.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MMD\MMDCpp14.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MMD\MMDImporter.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MMD\MMDPmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MMD\MMDPmxParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\MMD\MMDVmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Obj\ObjExporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\OpenGEX\OpenGEXExporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Ply\PlyExporter.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3DS\3DSExporter.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assbin\AssbinExporter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assbin\AssbinFileWriter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assxml\AssxmlExporter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assxml\AssxmlFileWriter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Collada\ColladaExporter.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXExporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXExportNode.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXExportProperty.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\STL\STLExporter.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X\XFileExporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\X3D\X3DExporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF\glTFExporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\glTF2\glTF2Exporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\3MF\D3MFExporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\Pbrt\PbrtExporter.h">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assjson\cencode.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Assjson\mesh_splitter.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\Step\StepExporter.h">
+      <Filter>AssetLib\STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\AssetLib\FBX\FBXCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\pugixml\src\pugiconfig.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\pugixml\src\pugixml.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\contrib\stb\stb_image.h">
+      <Filter>Contrib\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\build\dependencies\assimp-6.0.4\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\ColladaMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\commonMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\ObjMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\GltfMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\AssertHandler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\SmallVector.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\XmlParser.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Base64.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\Repositories\MaxMald\software-renderer\dependencies\assimp-6.0.4\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AssetLib">
+      <UniqueIdentifier>{161E33F7-9A55-386D-85B8-F93C361F2570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3D">
+      <UniqueIdentifier>{2C6BFFAD-4956-339C-8833-0AE6C987BE6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3DS">
+      <UniqueIdentifier>{DAF856B7-DF76-35E1-8E22-F19C2F978ECA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3MF">
+      <UniqueIdentifier>{E9CC3169-6D56-3030-B2B3-7965741C441F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AC">
+      <UniqueIdentifier>{6A2AB303-67BA-3EB3-BF90-439627BDC741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AMF">
+      <UniqueIdentifier>{F983DDE6-A058-3322-B71D-5014053AAD4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASE">
+      <UniqueIdentifier>{FA731C64-50D3-31BC-93CF-8B4B2C289AC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSBIN">
+      <UniqueIdentifier>{6342E916-F921-37D4-B413-DD83972C2A6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSJSON">
+      <UniqueIdentifier>{37BDC8C4-272F-388C-8606-F861F0670E2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSXML">
+      <UniqueIdentifier>{1C408059-86DE-3360-807E-D629919B4183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\B3D">
+      <UniqueIdentifier>{6DD29BE5-3B9C-315E-B0EB-7DB6BB416414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BLEND">
+      <UniqueIdentifier>{CE27B5A7-04E2-3AE7-9738-C4B821F865DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BVH">
+      <UniqueIdentifier>{1B449319-CE3B-3A6F-908F-F57BFBF87898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COB">
+      <UniqueIdentifier>{A7455CDF-108A-37BA-BEFD-B06EB4D4D5A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COLLADA">
+      <UniqueIdentifier>{220F8296-DA7A-3BEC-9D2A-8232C9D1F560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\CSM">
+      <UniqueIdentifier>{B857A02A-95B1-323A-B532-9C63AD5E9664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\DXF">
+      <UniqueIdentifier>{280EC2AA-56DD-3DFF-96BA-57BF0A66B8A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\FBX">
+      <UniqueIdentifier>{CD51388F-4B85-3EEB-973B-B6B5277876C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\GLTF">
+      <UniqueIdentifier>{DCAF2DAC-C0AB-3445-8500-5F60F767C13D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\HMP">
+      <UniqueIdentifier>{EE1E799A-FF02-3010-8A10-1141A5EB002B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IFC">
+      <UniqueIdentifier>{5F44969F-4C67-3702-8471-43F4C366245D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IQM">
+      <UniqueIdentifier>{A7937063-0DD7-36C9-BF37-C573EBF3C6AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRR">
+      <UniqueIdentifier>{DB81ACA3-46F2-3229-B464-F72CCA7EF9B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRRMESH">
+      <UniqueIdentifier>{BE71A025-B0B0-39AB-89D6-11C351CBD710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWO">
+      <UniqueIdentifier>{2F89CCA0-93FF-331D-8D7B-B28CDFA190BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWS">
+      <UniqueIdentifier>{1B32469F-07C1-3140-8011-F0450AEAD130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD2">
+      <UniqueIdentifier>{392ACCE4-204A-3C02-BF44-68909AB0B153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD3">
+      <UniqueIdentifier>{7E7952FD-02DB-3B6A-87CE-28677CF9A2F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD5">
+      <UniqueIdentifier>{7D31CBE1-4F41-36C6-A327-20A0D1C4E57E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDC">
+      <UniqueIdentifier>{F37FBD83-935D-3971-8C94-CCACF172FAA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDL">
+      <UniqueIdentifier>{46C70BA0-6332-3F6A-A52D-35A522A0E5FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MMD">
+      <UniqueIdentifier>{28D58561-3DCD-3D9F-892C-4207B3EF9EF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MS3D">
+      <UniqueIdentifier>{B99D3C2D-7B92-3D8A-A90A-09B958AF2790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NDO">
+      <UniqueIdentifier>{30B8D993-9E17-3242-9A89-04CC8862EC7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NFF">
+      <UniqueIdentifier>{18CBC6A2-D3D0-3C09-9BBE-B464951448CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OBJ">
+      <UniqueIdentifier>{E1551322-A216-3777-9DF3-D054FB14A8C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OFF">
+      <UniqueIdentifier>{0CAE30E4-EBE8-3AF3-A032-673409AABEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OGRE">
+      <UniqueIdentifier>{0C343A14-AB31-3D0F-93C7-3BEDE3EAE1A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OPENGEX">
+      <UniqueIdentifier>{AD675056-FEAA-3823-A303-8184995EA988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PBRT">
+      <UniqueIdentifier>{5ED6FF74-A8CD-3D3B-8F13-2B0E801E60F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PLY">
+      <UniqueIdentifier>{7D4FAD96-2264-3E4D-9398-85B793F2ABFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3BSP">
+      <UniqueIdentifier>{8DFC7F6C-EE95-363B-A92A-46A87891B0D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3D">
+      <UniqueIdentifier>{37A9276B-823F-3B7E-9D26-6A0AB511B887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\RAW">
+      <UniqueIdentifier>{EC11E0C0-B831-30CA-A7CA-2E7879BF4B40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SIB">
+      <UniqueIdentifier>{C5D47C0D-3724-327C-8A24-F1AB85021C8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SMD">
+      <UniqueIdentifier>{4660C967-9438-3EA6-972B-4EB21DA06E8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STEP">
+      <UniqueIdentifier>{DD4E7839-395B-30B2-9CA4-01AA22E03325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STL">
+      <UniqueIdentifier>{F9CE351F-CB65-332D-8DD7-2591491784AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\TERRAGEN">
+      <UniqueIdentifier>{EC22DD9A-14CF-388F-B60B-9C7A65CD523E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X">
+      <UniqueIdentifier>{5D57546A-1354-3D81-87A0-3CABCD568188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X3D">
+      <UniqueIdentifier>{E0EFE55D-50B6-3E5D-8F37-C09DB6A28723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\XGL">
+      <UniqueIdentifier>{D71231DB-6B2A-3466-8731-304EE655F19B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{A1E6A45D-E141-38C1-84B0-030050A8C51B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{61929537-06EF-3DED-8E79-FB49B1CA672E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{191096AB-B282-3DE3-B516-CE90FDF9EE16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{89C21E1D-F58C-38DD-9690-F5B0EB5DF11D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{A53CFB9D-8777-3DEE-9052-B025A651ABA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{3CFF9BA0-D817-3AC9-921F-2CD0EA5D4D57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Pugixml">
+      <UniqueIdentifier>{13FA6214-5BAF-3814-9FE0-19506E5BB826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{36E9025B-EFED-3FC8-ACDD-5AB274B7BFB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{4AD81A00-A939-33D6-A9DD-82FB7F0640BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\stb">
+      <UniqueIdentifier>{92F7CF1E-BD0B-3D27-B267-598AFBAFD218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{9431B796-4D40-3F90-A0C4-A4C6DD4EAD06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{2F19B96D-9F63-3E84-B8E2-ACB2594EE798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{94127B08-739E-37AB-9448-3C153C13EFA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{03492E82-96B2-3811-B20F-861EF65F888D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{C08458C8-59D5-35C2-85D1-D96C4E59B125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{89FC13FE-D151-38B4-A05E-8933C465846F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{10475F9E-0D21-3E52-A877-66B0CE589F6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{5E6BB57C-C8A2-307A-BA74-3608B2F467BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F3670CF-D7DF-3797-B111-91DA7D3F96F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glTFCommon">
+      <UniqueIdentifier>{A5ED9C93-3DA3-3886-87F4-9F2A6A4F7062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{07A039BB-9BAB-3B23-BB00-B60B7D11556A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{9470902C-0BF3-3FDD-8E50-174918D4F30D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{55A4DB5B-1648-3350-860D-81A1B861AFCB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

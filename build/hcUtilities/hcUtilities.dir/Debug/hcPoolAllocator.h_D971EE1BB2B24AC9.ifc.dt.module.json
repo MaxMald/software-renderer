@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcPoolAllocator.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcPoolAllocator.h_D971EE1BB2B24AC9.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcPoolAllocator.h_D971EE1BB2B24AC9.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcPoolAllocator.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\memory\\hcPoolAllocator.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\memory\\hcpoolallocator.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

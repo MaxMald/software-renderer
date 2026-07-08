@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcClock.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcClock.h_3F5D65166F88F05B.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcClock.h_3F5D65166F88F05B.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcClock.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcClock.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcclock.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

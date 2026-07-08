@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Repositories\MaxMald\software-renderer\build\CMakeFiles\4caf24f4d47c66a30cfa6d5e550113a9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{91932BB3-02BE-3982-8B22-2D436210EEBD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

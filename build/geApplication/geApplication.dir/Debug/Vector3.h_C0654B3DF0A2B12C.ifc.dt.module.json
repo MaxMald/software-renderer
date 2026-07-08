@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geApplication.dir\\Debug\\Vector3.obj",
+            "outputs": [
+                "geApplication.dir\\Debug\\Vector3.h_C0654B3DF0A2B12C.ifc.dt.module.json",
+                "geApplication.dir\\Debug\\Vector3.h_C0654B3DF0A2B12C.ifc.dt.d.json",
+                "geApplication.dir\\Debug\\Vector3.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geApplication\\include\\Vector3.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\vector3.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geApplication.dir\\Debug\\Texture.obj",
+            "outputs": [
+                "F:\\Repositories\\MaxMald\\software-renderer\\build\\geApplication\\geApplication.dir\\Debug\\vc145.pdb",
+                "geApplication.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}
