@@ -13,11 +13,19 @@ using namespace DirectX;
 
 using hc::Vector3f;
 
+#include <geCorePrerequisites.h>
+#include <geImage.h>
+#include <geTexture.h>
+#include <geVertex.h>
+#include <geTriangle.h>
+
+using ge::Image;
+using ge::Texture;
+using ge::Vertex;
+using ge::Triangle;
+
 #include "framework.h"
 #include "SoftwareRenderer.h"
-#include "Image.h"
-#include "Texture.h"
-
 
 #define MAX_LOADSTRING 100
 
@@ -92,8 +100,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
       return g_loadedImageTexture.Sample(
         u,
         v,
-        SAMPLE_FILTER::LINEAR,
-        TEXTURE_ADDRESS_MODE::CLAMP
+        ge::SAMPLE_FILTER::LINEAR,
+        ge::TEXTURE_ADDRESS_MODE::CLAMP
       );
     };
 
@@ -277,8 +285,8 @@ void Render()
       Color fcolor = g_renderTargetTexture.Sample(
         static_cast<float>(x) / scaledWidth,
         static_cast<float>(y) / scaledHeight,
-        SAMPLE_FILTER::LINEAR,
-        TEXTURE_ADDRESS_MODE::CLAMP
+        ge::SAMPLE_FILTER::LINEAR,
+        ge::TEXTURE_ADDRESS_MODE::CLAMP
       );
 
       ColorUInt8 color(fcolor);
