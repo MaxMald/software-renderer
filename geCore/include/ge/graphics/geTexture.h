@@ -1,7 +1,7 @@
 #pragma once
 
-#include "geCorePrerequisites.h"
-#include "geImage.h"
+#include "ge/geCorePrerequisites.h"
+#include "ge/assets/geImage.h"
 
 namespace ge
 {

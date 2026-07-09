@@ -13,11 +13,11 @@ using namespace DirectX;
 
 using hc::Vector3f;
 
-#include <geCorePrerequisites.h>
-#include <geImage.h>
-#include <geTexture.h>
-#include <geVertex.h>
-#include <geTriangle.h>
+#include <ge/geCorePrerequisites.h>
+#include <ge/assets/geImage.h>
+#include <ge/graphics/geTexture.h>
+#include <ge/graphics/geVertex.h>
+#include <ge/graphics/geTriangle.h>
 
 using ge::Image;
 using ge::Texture;

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "geCorePrerequisites.h"
-#include "geVertex.h"
+#include "ge/geCorePrerequisites.h"
+#include "ge/graphics/geVertex.h"
 
 namespace ge
 {

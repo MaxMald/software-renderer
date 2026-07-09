@@ -1,6 +1,6 @@
 #pragma once
 
-#include "geCorePrerequisites.h"
+#include "ge/geCorePrerequisites.h"
 
 namespace ge
 {

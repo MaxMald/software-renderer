@@ -1,9 +1,11 @@
-#include "geImage.h"
+#include "ge/assets/geImage.h"
 
 #include <fstream>
 #include <iostream>
 
 using std::ios;
+
+#include "ge/graphics/geTriangle.h"
 
 namespace ge
 {

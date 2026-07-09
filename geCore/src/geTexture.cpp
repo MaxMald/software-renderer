@@ -1,4 +1,4 @@
-#include "geTexture.h"
+#include "ge/graphics/geTexture.h"
 
 namespace ge
 {

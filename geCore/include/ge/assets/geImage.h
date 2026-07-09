@@ -1,10 +1,11 @@
 #pragma once
 
-#include "geCorePrerequisites.h"
-#include "geTriangle.h"
+#include "ge/geCorePrerequisites.h"
 
 namespace ge
 {
+  struct Triangle;
+
   class GE_CORE_EXPORT Image
   {
   public:
