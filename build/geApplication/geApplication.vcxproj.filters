@@ -1,13 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\Color.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\Commons.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\FColor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\Image.cpp">
@@ -21,13 +15,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Color.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Commons.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\FColor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Image.h">
@@ -40,12 +28,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Triangle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Vector2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Vector3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Vertex.h">

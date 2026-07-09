@@ -1,26 +1,29 @@
 #pragma once
 
 #define NOMINMAX
-#include <cstdint>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <cassert>
-#include <exception>
-#include <functional>
 
-using int8 = std::int8_t;
-using uint8 = std::uint8_t;
-using int16 = std::int16_t;
-using uint16 = std::uint16_t;
-using int32 = std::int32_t;
-using uint32 = std::uint32_t;
-using int64 = std::int64_t;
-using uint64 = std::uint64_t;
-using byte = std::uint8_t;
+#include <hc/utilities/hcTypeAliases.h>
+#include <hc/utilities/hcMath.h>
+#include <hc/utilities/hcVector3.h>
+#include <hc/utilities/hcVector2.h>
+#include <hc/utilities/hcColor.h>
+#include <hc/utilities/hcColorUInt8.h>
 
-template<typename T>
-using Vector = std::vector<T>;
+using hc::UInt8;
+using hc::UInt16;
+using hc::UInt32;
+using hc::UInt64;
+using hc::Int8;
+using hc::Int16;
+using hc::Int32;
+using hc::Int64;
+using hc::Byte;
+using hc::Vector2f;
+using hc::Vector3f;
+using hc::Color;
+using hc::ColorUInt8;
+
+using PixelShaderSW = std::function<hc::Color(float, float)>;
 
 namespace SAMPLE_FILTER
 {
@@ -55,25 +58,6 @@ namespace REGION_CODE
 	};
 }
 
-struct Math
-{
-	[[nodiscard]] static float Clamp(float value, float min, float max)
-	{
-		return (std::max)(min, (std::min)(max, value));
-	}
-
-	[[nodiscard]] static int32 Clamp(int32 value, int32 min, int32 max)
-	{
-		return (std::max)(min, (std::min)(max, value));
-	}
-
-	[[nodiscard]] static float Floor(float value)
-	{
-		return std::floor(value);
-	}
-};
-
-
 #pragma pack(push, 2) // Asegura que no haya relleno entre los campos, 
 // puedes verlo en el Layout de la memoria que muestra el visual studio,
 // anda has la prueba comentando el #pragma pack y verás la diferencia, 
@@ -82,19 +66,19 @@ struct Math
 
 struct MY_BITMAPFILEHEADER
 {
-	uint16 bfType;      // Tipo de archivo, debe ser 'BM' (0x4D42)
-	uint32 bfSize;      // Tamaño total del archivo en bytes
-	uint16 bfReserved1; // Reservado, debe ser 0
-	uint16 bfReserved2; // Reservado, debe ser 0
-	uint32 bfOffBits;   // Desplazamiento desde el inicio del archivo hasta los datos de la imagen
+	UInt16 bfType;      // Tipo de archivo, debe ser 'BM' (0x4D42)
+	UInt32 bfSize;      // Tamaño total del archivo en bytes
+	UInt16 bfReserved1; // Reservado, debe ser 0
+	UInt16 bfReserved2; // Reservado, debe ser 0
+	UInt32 bfOffBits;   // Desplazamiento desde el inicio del archivo hasta los datos de la imagen
 };
 #pragma pack(pop)
 
 struct MY_BITMAPINFOHEADER
 {
-	uint32 bcSize;          // Tamaño del encabezado (14 bytes para BITMAPCOREHEADER)
-	int32 bcWidth;         // Ancho de la imagen en píxeles
-	int32 bcHeight;        // Alto de la imagen en píxeles
-	uint16 bcPlanes;        // Número de planos de color, debe ser 1
-	uint16 bcBitCount;      // Número de bits por píxel (1, 4, 8, 24, etc.)
+	UInt32 bcSize;          // Tamaño del encabezado (14 bytes para BITMAPCOREHEADER)
+	Int32 bcWidth;         // Ancho de la imagen en píxeles
+	Int32 bcHeight;        // Alto de la imagen en píxeles
+	UInt16 bcPlanes;        // Número de planos de color, debe ser 1
+	UInt16 bcBitCount;      // Número de bits por píxel (1, 4, 8, 24, etc.)
 };

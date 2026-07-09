@@ -5,8 +5,19 @@
 
 namespace hc
 {
+  /**
+   * @brief Represents a color with red, green, blue, and alpha components in
+   * floating-point format. The components are typically in the range [0.0, 1.0].
+   */
   struct Color
   {
+    union
+    {
+      float m[4];
+      struct { float r, g, b, a; };
+      Vector4f vec4;
+    };
+
     static constexpr Color Black();
     static constexpr Color White();
     static constexpr Color Red();
@@ -14,12 +25,7 @@ namespace hc
     static constexpr Color Blue();
     static constexpr Color Transparent();
 
-    union
-    {
-      float m[4];
-      struct { float r, g, b, a; };
-      Vector4f vec4;
-    };
+    static inline Color Lerp(const Color& a, const Color& b, float t);
 
     constexpr Color();
     constexpr Color(float r, float g, float b, float a = 1.0f);
@@ -39,6 +45,16 @@ namespace hc
   constexpr Color Color::Green() { return Color(0.0f, 1.0f, 0.0f, 1.0f); }
   constexpr Color Color::Blue() { return Color(0.0f, 0.0f, 1.0f, 1.0f); }
   constexpr Color Color::Transparent() { return Color(0.0f, 0.0f, 0.0f, 0.0f); }
+
+  inline Color Color::Lerp(const Color& a, const Color& b, float t)
+  {
+    return Color(
+      a.r + (b.r - a.r) * t,
+      a.g + (b.g - a.g) * t,
+      a.b + (b.b - a.b) * t,
+      a.a + (b.a - a.a) * t
+    );
+  }
 
   constexpr Color::Color()
     : r(0.0f), g(0.0f), b(0.0f), a(1.0f) {

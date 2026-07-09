@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\src\\utilities\\hcjson.cpp",
+        "Source": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\src\\utilities\\hccoloruint8.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcjson.h",
+            "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hccoloruint8.h",
             "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcutilitiesprerequisites.h",
             "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcplatformconfiguration.h",
             "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\cassert",
@@ -179,25 +179,10 @@
             "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\array",
             "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcutilitieslibraryconfiguration.h",
             "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcexceptionsaliases.h",
-            "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcstring.h",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\cstdarg",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\stdarg.h",
-            "f:\\repositories\\maxmald\\software-renderer\\dependencies\\nlohmann_json\\include\\nlohmann\\json.hpp",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\map",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\xtree",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\valarray",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\version",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\cassert",
-            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\assert.h",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\ranges",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_ranges_to.hpp",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\span",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\string_view",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\numeric",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\ostream",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\any",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\fstream",
-            "f:\\programs\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_filebuf.hpp"
+            "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcvector4.h",
+            "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcvector3.h",
+            "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hcmath.h",
+            "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hccolor.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

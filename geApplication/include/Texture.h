@@ -10,10 +10,10 @@ public:
 	explicit Texture(const Image& image);
 	~Texture() = default;
 
-	void create(int32 w, int32 h, int32 bpp);
+	void create(Int32 w, Int32 h, Int32 bpp);
 	void create(const Image& image);
 	void unload();
-	FColor Sample(
+	Color Sample(
     float u, float v, 
     SAMPLE_FILTER::E filter, 
     TEXTURE_ADDRESS_MODE::E textureAddressMode = TEXTURE_ADDRESS_MODE::WRAP
@@ -25,5 +25,5 @@ public:
 private:
 	Image m_image;
 
-	FColor linearSample(const Image& image, float x, float y) const;
+	Color linearSample(const Image& image, float x, float y) const;
 };

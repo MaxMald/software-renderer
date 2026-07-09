@@ -9,10 +9,15 @@
 
 using namespace DirectX;
 
+#include <hc/utilities/hcUtilities.h>
+
+using hc::Vector3f;
+
 #include "framework.h"
 #include "SoftwareRenderer.h"
 #include "Image.h"
 #include "Texture.h"
+
 
 #define MAX_LOADSTRING 100
 
@@ -30,12 +35,12 @@ Texture g_renderTargetTexture;
 Image g_loadedImage;
 Texture g_loadedImageTexture;
 
-Vector3 RotatePointAround(const Vector3& point, const Vector3& pivot, float angleRad)
+Vector3f RotatePointAround(const Vector3f& point, const Vector3f& pivot, float angleRad)
 {
   float s = std::sin(angleRad);
   float c = std::cos(angleRad);
-  Vector3 position = point - pivot;
-  Vector3 rotatedPosition;
+  Vector3f position = point - pivot;
+  Vector3f rotatedPosition;
 
   rotatedPosition.x = position.x * c - position.y * s;
   rotatedPosition.y = position.x * s + position.y * c;
@@ -82,7 +87,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
   // Create Shaders
 
-  auto ps_shader = [](float u, float v) -> FColor
+  auto ps_shader = [](float u, float v) -> Color
     {
       return g_loadedImageTexture.Sample(
         u,
@@ -92,9 +97,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
       );
     };
 
-  auto ps_shader_white = [](float u, float v) -> FColor
+  auto ps_shader_white = [](float u, float v) -> Color
     {
-      return FColor(1.0f, 1.0f, 1.0f);
+      return Color(1.0f, 1.0f, 1.0f);
     };
 
   // Create Render Target with the same dimensions as the window
@@ -121,7 +126,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
   tri.v2.uv = { 0.0f, 1.0f };
 
   // Rotate the triangle around the center of the render target
-  Vector3 pivot = { float(rtSurface.getWidth()) / 2.0f, float(rtSurface.getHeight()) / 2.0f, 0.0f };
+  Vector3f pivot = { float(rtSurface.getWidth()) / 2.0f, float(rtSurface.getHeight()) / 2.0f, 0.0f };
   tri.v0.position = RotatePointAround(tri.v0.position, pivot, rotationAngle);
   tri.v1.position = RotatePointAround(tri.v1.position, pivot, rotationAngle);
   tri.v2.position = RotatePointAround(tri.v2.position, pivot, rotationAngle);
@@ -158,7 +163,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
   XMVECTOR pv2 = XMVectorMultiplyAdd(v2, half, half);
 
 
-  Vector3 fv0, fv1, fv2;
+  Vector3f fv0, fv1, fv2;
   fv0.x = XMVectorGetX(pv0) * rtSurface.getWidth();
   fv0.y = XMVectorGetY(pv0) * rtSurface.getHeight();
   fv0.y = 1.0f - fv0.y;
@@ -176,9 +181,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
   // Dibujar un triángulo con los vértices transformados
 
-  rtSurface.drawFilledTriangle({ {fv0, {0.0f, 0.0f}, Color(255, 0, 0)},
-                                {fv1, {0.0f, 0.0f}, Color(0, 255, 0)},
-                                {fv2, {0.0f, 0.0f}, Color(0, 0, 255)} }, ps_shader);
+  rtSurface.drawFilledTriangle({ {fv0, {0.0f, 0.0f}, ColorUInt8(255, 0, 0)},
+                                {fv1, {0.0f, 0.0f}, ColorUInt8(0, 255, 0)},
+                                {fv2, {0.0f, 0.0f}, ColorUInt8(0, 0, 255)} }, ps_shader);
   //tri.v0.position = fv0;
 
   //////////////
@@ -259,25 +264,25 @@ void Render()
 {
   HDC hdc = GetDC(g_hWnd);
 
-  int32 xScale = 1;
-  int32 yScale = 1;
+  Int32 xScale = 1;
+  Int32 yScale = 1;
 
-  int32 scaledWidth = g_renderTargetImage.getWidth() * xScale;
-  int32 scaledHeight = g_renderTargetImage.getHeight() * yScale;
+  Int32 scaledWidth = g_renderTargetImage.getWidth() * xScale;
+  Int32 scaledHeight = g_renderTargetImage.getHeight() * yScale;
 
-  for (int32 y = 0; y < scaledHeight; ++y)
+  for (Int32 y = 0; y < scaledHeight; ++y)
   {
-    for (int32 x = 0; x < scaledWidth; ++x)
+    for (Int32 x = 0; x < scaledWidth; ++x)
     {
-      FColor fcolor = g_renderTargetTexture.Sample(
+      Color fcolor = g_renderTargetTexture.Sample(
         static_cast<float>(x) / scaledWidth,
         static_cast<float>(y) / scaledHeight,
         SAMPLE_FILTER::LINEAR,
         TEXTURE_ADDRESS_MODE::CLAMP
       );
 
-      Color color = fcolor.ToColor();
-      SetPixel(hdc, x, y, RGB(color.color.r, color.color.g, color.color.b));
+      ColorUInt8 color(fcolor);
+      SetPixel(hdc, x, y, RGB(color.r, color.g, color.b));
     }
   }
 
@@ -324,7 +329,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
           g_mousePosIni.y,
           g_mousePos.x,
           g_mousePos.y,
-          Color(255, 0, 0)
+          ColorUInt8(255, 0, 0)
         );
       }
 

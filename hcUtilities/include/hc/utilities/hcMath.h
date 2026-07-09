@@ -34,6 +34,12 @@ namespace hc
     }
 
     template<typename T>
+    static constexpr T Floor(T value)
+    {
+      return std::floor(value);
+    }
+
+    template<typename T>
     static constexpr T Abs(T value)
     {
       return std::abs(value);

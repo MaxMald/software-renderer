@@ -8,7 +8,7 @@ Image::Image() : m_width(0), m_height(0), m_bpp(0)
 {
 }
 
-void Image::create(int32 w, int32 h, int32 bpp)
+void Image::create(Int32 w, Int32 h, Int32 bpp)
 {
 	unload();
 	m_width = w;
@@ -50,8 +50,8 @@ void Image::load(const char* filename)
 	create(coreInfoHeader.bcWidth, coreInfoHeader.bcHeight, coreInfoHeader.bcBitCount);
 	imgFile.seekg(fileHeader.bfOffBits, std::ios::beg);
 
-	int32 padding = getPitch() % 4;
-	int32 lineMemoryWidth = getPitch();
+	Int32 padding = getPitch() % 4;
+	Int32 lineMemoryWidth = getPitch();
 
 	if (padding > 0)
 	{
@@ -61,16 +61,16 @@ void Image::load(const char* filename)
 
 	// invertir lineas, bmp guarda las lineas de abajo hacia arriba
 
-	for (int32 line = m_height - 1; line >= 0; --line)
+	for (Int32 line = m_height - 1; line >= 0; --line)
 	{
 		imgFile.seekg(line * lineMemoryWidth + fileHeader.bfOffBits);
 		imgFile.read(reinterpret_cast<char*>(&m_data[getPitch() * (m_height - 1 - line)]), getPitch());
 	}
 
 	// convertir de BGR a RGB
-	for (int32 i = 0; i < m_width * m_height; ++i)
+	for (Int32 i = 0; i < m_width * m_height; ++i)
 	{
-		uint32 offset = i * getBytesPerPixel();
+		UInt32 offset = i * getBytesPerPixel();
 		std::swap(m_data[offset], m_data[offset + 2]);
 	}
 
@@ -87,64 +87,61 @@ void Image::unload()
 	m_data.clear();
 }
 
-void Image::clear(const Color& color)
+void Image::clear(const ColorUInt8& color)
 {
 	if (getBytesPerPixel() == 4)
 	{
-		uint32* pData = reinterpret_cast<uint32*>(m_data.data());
-		for (int32 i = 0; i < m_width * m_height; ++i)
+		UInt32* pData = reinterpret_cast<UInt32*>(m_data.data());
+		for (Int32 i = 0; i < m_width * m_height; ++i)
 		{
-			pData[i] = color.color.rgba;
+			pData[i] = color.rgba;
 		}
 		return;
 	}
 
-	for (int32 i = 0; i < m_width * m_height; ++i)
+	for (Int32 i = 0; i < m_width * m_height; ++i)
 	{
-		uint32 offset = i * getBytesPerPixel();
-		m_data[offset] = color.color.r;
-		m_data[offset + 1] = color.color.g;
-		m_data[offset + 2] = color.color.b;
+		UInt32 offset = i * getBytesPerPixel();
+		m_data[offset] = color.r;
+		m_data[offset + 1] = color.g;
+		m_data[offset + 2] = color.b;
 	}
 }
 
-void Image::setPixel(int32 x, int32 y, const Color& color)
+void Image::setPixel(Int32 x, Int32 y, const ColorUInt8& color)
 {
 	if (x < 0 || x >= m_width || y < 0 || y >= m_height)
 		return;
 
-	int32 index = (y * m_width + x) * getBytesPerPixel();
+	Int32 index = (y * m_width + x) * getBytesPerPixel();
 	if (getBytesPerPixel() == 4)
 	{
-		uint32* pData = reinterpret_cast<uint32*>(m_data.data());
-		pData[y * m_width + x] = color.color.rgba;
+		UInt32* pData = reinterpret_cast<UInt32*>(m_data.data());
+		pData[y * m_width + x] = color.rgba;
 	}
 }
 
-Color Image::getPixel(int32 x, int32 y) const
+ColorUInt8 Image::getPixel(Int32 x, Int32 y) const
 {
 	assert(x >= 0 && x < m_width && y >= 0 && y < m_height);
 
-	Color color;
-	uint32 offset = (y * m_width + x) * getBytesPerPixel();
-	color.color.r = m_data[offset];
-	color.color.g = m_data[offset + 1];
-	color.color.b = m_data[offset + 2];
-	color.color.a = (getBytesPerPixel() == 4) ? m_data[offset + 3] : 255;
+	ColorUInt8 color;
+	UInt32 offset = (y * m_width + x) * getBytesPerPixel();
+	color.r = m_data[offset];
+	color.g = m_data[offset + 1];
+	color.b = m_data[offset + 2];
+	color.a = (getBytesPerPixel() == 4) ? m_data[offset + 3] : 255;
 
 	return color;
 }
 
-int32 Image::computeRegionCode(
-	int32 x,
-	int32 y,
-	int32 xMin,
-	int32 yMin,
-	int32 xMax,
-	int32 yMax
+Int32 Image::computeRegionCode(
+	Int32 x, Int32 y,
+	Int32 xMin, Int32 yMin,
+	Int32 xMax, Int32 yMax
 ) const
 {
-	int32 codeRegion = REGION_CODE::INSIDE;
+	Int32 codeRegion = REGION_CODE::INSIDE;
 
 	if (x < xMin)
 		codeRegion |= REGION_CODE::LEFT;
@@ -159,15 +156,15 @@ int32 Image::computeRegionCode(
 	return codeRegion;
 }
 
-bool Image::clipLine(int32& x0, int32& y0, int32& x1, int32& y1) const
+bool Image::clipLine(Int32& x0, Int32& y0, Int32& x1, Int32& y1) const
 {
-	const int32 xMin = 0;
-	const int32 yMin = 0;
-	const int32 xMax = m_width - 1;
-	const int32 yMax = m_height - 1;
+	const Int32 xMin = 0;
+	const Int32 yMin = 0;
+	const Int32 xMax = m_width - 1;
+	const Int32 yMax = m_height - 1;
 
-	int32 code0 = computeRegionCode(x0, y0, xMin, yMin, xMax, yMax);
-	int32 code1 = computeRegionCode(x1, y1, xMin, yMin, xMax, yMax);
+	Int32 code0 = computeRegionCode(x0, y0, xMin, yMin, xMax, yMax);
+	Int32 code1 = computeRegionCode(x1, y1, xMin, yMin, xMax, yMax);
 
 	while (true)
 	{
@@ -180,8 +177,8 @@ bool Image::clipLine(int32& x0, int32& y0, int32& x1, int32& y1) const
 			return false; // The line is rejected
 		}
 
-		int32 x = 0, y = 0;
-		int32 codeOut = code0 ? code0 : code1;
+		Int32 x = 0, y = 0;
+		Int32 codeOut = code0 ? code0 : code1;
 
 		if (codeOut & REGION_CODE::ABOVE)
 		{
@@ -219,7 +216,7 @@ bool Image::clipLine(int32& x0, int32& y0, int32& x1, int32& y1) const
 	}
 }
 
-void Image::line(int32 x0, int32 y0, int32 x1, int32 y1, const Color& color)
+void Image::line(Int32 x0, Int32 y0, Int32 x1, Int32 y1, const ColorUInt8& color)
 {
 	if (!clipLine(x0, y0, x1, y1))
 		return;
@@ -235,11 +232,11 @@ void Image::line(int32 x0, int32 y0, int32 x1, int32 y1, const Color& color)
 	float x = static_cast<float>(x0);
 	float y = static_cast<float>(y0);
 
-	for (int32 i = 0; i <= steps; ++i)
+	for (Int32 i = 0; i <= steps; ++i)
 	{
 		setPixel(
-			static_cast<int32>(std::round(x)),
-			static_cast<int32>(std::round(y)),
+			static_cast<Int32>(std::round(x)),
+			static_cast<Int32>(std::round(y)),
 			color
 		);
 
@@ -248,20 +245,20 @@ void Image::line(int32 x0, int32 y0, int32 x1, int32 y1, const Color& color)
 	}
 }
 
-void Image::bressenhamLine(int32 x0, int32 y0, int32 x1, int32 y1, const Color& color)
+void Image::bressenhamLine(Int32 x0, Int32 y0, Int32 x1, Int32 y1, const ColorUInt8& color)
 {
 	if (!clipLine(x0, y0, x1, y1))
 		return;
 
-	int32 dx = std::abs(x1 - x0);
-	int32 dy = std::abs(y1 - y0);
+	Int32 dx = std::abs(x1 - x0);
+	Int32 dy = std::abs(y1 - y0);
 
 	// Determine the direction of the line
-	int32 sx = (x0 < x1) ? 1 : -1;
-	int32 sy = (y0 < y1) ? 1 : -1;
+	Int32 sx = (x0 < x1) ? 1 : -1;
+	Int32 sy = (y0 < y1) ? 1 : -1;
 
-	int32 err = dx - dy;
-	int32 err2;
+	Int32 err = dx - dy;
+	Int32 err2;
 
 	while (true)
 	{
@@ -285,15 +282,15 @@ void Image::bressenhamLine(int32 x0, int32 y0, int32 x1, int32 y1, const Color& 
 }
 
 void Image::bressehamCircle(
-	int32 centerX, 
-	int32 centerY, 
-	int32 radius, 
-	const Color& color
+	Int32 centerX, 
+	Int32 centerY, 
+	Int32 radius, 
+	const ColorUInt8& color
 )
 {
-	int32 x = radius;
-	int32 y = 0;
-	int32 err = 0;
+	Int32 x = radius;
+	Int32 y = 0;
+	Int32 err = 0;
 
 	while (x >= y)
 	{
@@ -319,19 +316,19 @@ void Image::bressehamCircle(
 	}
 }
 
-void Image::bitBlt(int32 x, int32 y, const Image& src)
+void Image::bitBlt(Int32 x, Int32 y, const Image& src)
 {
 	// TODO
 }
 
 void Image::drawTriangle(
-	int32 x0,
-	int32 y0,
-	int32 x1,
-	int32 y1,
-	int32 x2,
-	int32 y2,
-	const Color& color
+	Int32 x0,
+	Int32 y0,
+	Int32 x1,
+	Int32 y1,
+	Int32 x2,
+	Int32 y2,
+	const ColorUInt8& color
 )
 {
 	bressenhamLine(x0, y0, x1, y1, color);
@@ -374,7 +371,7 @@ void Image::drawFilledTriangle(
 		// otro con techo plano
 
 		Vertex v3;
-		v3.position.x = v0.position.x + (int)(0.5f + ((v1.position.y - v0.position.y) *
+		v3.position.x = v0.position.x + (Int32)(0.5f + ((v1.position.y - v0.position.y) *
 													 (v2.position.x - v0.position.x)) / 
 													 (v2.position.y - v0.position.y));
 
@@ -411,7 +408,7 @@ void Image::drawBottomTriangle(
 	if (v1.position.x > v2.position.x)
 		std::swap(v1, v2);
 
-	int32 height = static_cast<int32>(v1.position.y - v0.position.y);
+	Int32 height = static_cast<Int32>(v1.position.y - v0.position.y);
 	if (height == 0) // triangulo degenerado, no se pinta 
 		return;
 
@@ -431,10 +428,10 @@ void Image::drawBottomTriangle(
 	float vstart = v0.uv.y;
 	float vend = v0.uv.y;
 
-	for (int32 y = static_cast<int32>(v0.position.y); y <= static_cast<int32>(v1.position.y); ++y)
+	for (Int32 y = static_cast<Int32>(v0.position.y); y <= static_cast<Int32>(v1.position.y); ++y)
 	{
-		int32 left = static_cast<int32>(xstart);
-		int32 right = static_cast<int32>(xend);
+		Int32 left = static_cast<Int32>(xstart);
+		Int32 right = static_cast<Int32>(xend);
 
 		// esto no debería suceder, pero si por alguna razón, left es mayor a right,
 		// swapear 
@@ -446,10 +443,11 @@ void Image::drawBottomTriangle(
 		float du = (uend - ustart) / (right - left);
 		float dv = (vend - vstart) / (right - left);
 
-		for (int32 x =left; x <= right; ++x)
+		for (Int32 x =left; x <= right; ++x)
 		{
-			FColor fcolor = pixelShader(u, v);
-			setPixel(x, y, fcolor.ToColor());
+			Color fcolor = pixelShader(u, v);
+      ColorUInt8 colorUInt8(fcolor);
+			setPixel(x, y, colorUInt8);
 			u += du;
 			v += dv;
 		}
@@ -478,7 +476,7 @@ void Image::drawTopTriangle(
 	if (v0.position.x > v1.position.x)
 		std::swap(v0, v1);
 
-	int32 height = static_cast<int32>(v2.position.y - v0.position.y);
+	Int32 height = static_cast<Int32>(v2.position.y - v0.position.y);
 	if (height == 0) // triangulo degenerado, no se pinta 
 		return;
 
@@ -498,10 +496,10 @@ void Image::drawTopTriangle(
 	float vstart = v0.uv.y;
 	float vend = v1.uv.y;
 
-	for (int32 y = static_cast<int32>(v0.position.y); y <= static_cast<int32>(v2.position.y); ++y)
+	for (Int32 y = static_cast<Int32>(v0.position.y); y <= static_cast<Int32>(v2.position.y); ++y)
 	{
-		int32 left = static_cast<int32>(xstart);
-		int32 right = static_cast<int32>(xend);
+		Int32 left = static_cast<Int32>(xstart);
+		Int32 right = static_cast<Int32>(xend);
 
 		// esto no debería suceder, pero si por alguna razón, left es mayor a right,
 		// swapear 
@@ -513,7 +511,7 @@ void Image::drawTopTriangle(
 		float du = (uend - ustart) / (right - left);
 		float dv = (vend - vstart) / (right - left);
 
-		for (int32 x = left; x <= right; ++x)
+		for (Int32 x = left; x <= right; ++x)
 		{
 			/*
 			float z;
@@ -521,9 +519,9 @@ void Image::drawTopTriangle(
 				return;
 			*/
 
-			FColor fcolor = pixelShader(u, v);
-			setPixel(x, y, fcolor.ToColor());
-
+			Color fcolor = pixelShader(u, v);
+			ColorUInt8 colorUInt8(fcolor);
+			setPixel(x, y, colorUInt8);
 
 			u += du;
 			v += dv;

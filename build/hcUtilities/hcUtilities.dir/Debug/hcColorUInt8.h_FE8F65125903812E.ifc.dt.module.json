@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "hcUtilities.dir\\Debug\\hcColorUInt8.obj",
+            "outputs": [
+                "hcUtilities.dir\\Debug\\hcColorUInt8.h_FE8F65125903812E.ifc.dt.module.json",
+                "hcUtilities.dir\\Debug\\hcColorUInt8.h_FE8F65125903812E.ifc.dt.d.json",
+                "hcUtilities.dir\\Debug\\hcColorUInt8.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\hcUtilities\\include\\hc\\utilities\\hcColorUInt8.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hccoloruint8.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
