@@ -5,7 +5,7 @@
 
 namespace ge
 {
-  class Image
+  class GE_CORE_EXPORT Image
   {
   public:
     Image();

@@ -5,7 +5,7 @@
 
 namespace ge
 {
-  class Texture
+  class GE_CORE_EXPORT Texture
   {
   public:
     Texture() = default;

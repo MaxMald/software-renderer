@@ -29,6 +29,8 @@ using hc::ColorUInt8;
 // HC Containers
 using hc::Vector;
 
+#include "geCoreLibraryConfiguration.h"
+
 namespace ge
 {
   using PixelShaderSW = std::function<hc::Color(float, float)>;
