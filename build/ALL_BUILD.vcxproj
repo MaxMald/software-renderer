@@ -186,6 +186,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{1EF2C614-4D03-348F-828E-AFAD611843C1}</Project>
       <Name>geApplication</Name>
     </ProjectReference>
+    <ProjectReference Include="F:\Repositories\MaxMald\software-renderer\build\geCore\geCore.vcxproj">
+      <Project>{80746187-13BB-3213-9A39-C3767FA6CFF2}</Project>
+      <Name>geCore</Name>
+    </ProjectReference>
     <ProjectReference Include="F:\Repositories\MaxMald\software-renderer\build\hcUtilities\hcUtilities.vcxproj">
       <Project>{0161F704-F64E-3019-99C0-5814C079AF0B}</Project>
       <Name>hcUtilities</Name>

@@ -12,6 +12,7 @@
 		"F:/Repositories/MaxMald/software-renderer/build/dependencies/SFML-3.0.2/src/SFML/Window/cmake_install.cmake",
 		"F:/Repositories/MaxMald/software-renderer/build/dependencies/IMGUI/cmake_install.cmake",
 		"F:/Repositories/MaxMald/software-renderer/build/geApplication/cmake_install.cmake",
+		"F:/Repositories/MaxMald/software-renderer/build/geCore/cmake_install.cmake",
 		"F:/Repositories/MaxMald/software-renderer/build/hcUtilities/cmake_install.cmake"
 	],
 	"Parallel" : false

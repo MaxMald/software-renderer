@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geCore.dir\\Debug\\Image.obj",
+            "outputs": [
+                "geCore.dir\\Debug\\Image.h_B4B7BB2BA32A60D4.ifc.dt.module.json",
+                "geCore.dir\\Debug\\Image.h_B4B7BB2BA32A60D4.ifc.dt.d.json",
+                "geCore.dir\\Debug\\Image.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geCore\\include\\Image.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\image.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

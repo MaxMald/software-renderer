@@ -7,6 +7,9 @@
     <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcClock.cpp">
       <Filter>Source Files\utilities</Filter>
     </ClCompile>
+    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcColorUInt8.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
     <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\hcFileUtilities.cpp">
       <Filter>Source Files\utilities</Filter>
     </ClCompile>
@@ -52,9 +55,6 @@
     <ClCompile Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\src\utilities\memory\hcStackStorage.cpp">
       <Filter>Source Files\utilities\memory</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\hcUtilities\src\utilities\hcColorUInt8.cpp">
-      <Filter>Source Files\utilities</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcAModule.h">
@@ -73,6 +73,9 @@
       <Filter>Header Files\hc\utilities</Filter>
     </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcColor.h">
+      <Filter>Header Files\hc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcColorUInt8.h">
       <Filter>Header Files\hc\utilities</Filter>
     </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\hcDependencyContainer.h">
@@ -194,9 +197,6 @@
     </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\hcUtilities\include\hc\utilities\memory\hcStackStorage.h">
       <Filter>Header Files\hc\utilities\memory</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\hcUtilities\include\hc\utilities\hcColorUInt8.h">
-      <Filter>Header Files\hc\utilities</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

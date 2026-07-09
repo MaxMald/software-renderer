@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geCore.dir\\Debug\\Vertex.obj",
+            "outputs": [
+                "geCore.dir\\Debug\\Vertex.h_E6610E79614CF691.ifc.dt.module.json",
+                "geCore.dir\\Debug\\Vertex.h_E6610E79614CF691.ifc.dt.d.json",
+                "geCore.dir\\Debug\\Vertex.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geCore\\include\\Vertex.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\vertex.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

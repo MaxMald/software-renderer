@@ -47,6 +47,7 @@ target_compile_options(geApplication PRIVATE
 # Required dependencies (loaded at runtime)
 add_dependencies(geApplication
   hcUtilities
+  geCore
 )
 
 # Includes
@@ -57,4 +58,7 @@ target_include_directories(geApplication
 )
 
 # Linking
-target_link_libraries(geApplication PUBLIC hcUtilities)
+target_link_libraries(geApplication PUBLIC 
+	hcUtilities 
+	geCore
+)

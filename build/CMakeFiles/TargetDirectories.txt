@@ -34,6 +34,9 @@ F:/Repositories/MaxMald/software-renderer/build/dependencies/IMGUI/CMakeFiles/IN
 F:/Repositories/MaxMald/software-renderer/build/geApplication/CMakeFiles/geApplication.dir
 F:/Repositories/MaxMald/software-renderer/build/geApplication/CMakeFiles/RUN_TESTS.dir
 F:/Repositories/MaxMald/software-renderer/build/geApplication/CMakeFiles/INSTALL.dir
+F:/Repositories/MaxMald/software-renderer/build/geCore/CMakeFiles/geCore.dir
+F:/Repositories/MaxMald/software-renderer/build/geCore/CMakeFiles/RUN_TESTS.dir
+F:/Repositories/MaxMald/software-renderer/build/geCore/CMakeFiles/INSTALL.dir
 F:/Repositories/MaxMald/software-renderer/build/hcUtilities/CMakeFiles/hcUtilities.dir
 F:/Repositories/MaxMald/software-renderer/build/hcUtilities/CMakeFiles/RUN_TESTS.dir
 F:/Repositories/MaxMald/software-renderer/build/hcUtilities/CMakeFiles/INSTALL.dir

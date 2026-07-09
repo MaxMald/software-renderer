@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geCore.dir\\Debug\\getImage.obj",
+            "outputs": [
+                "geCore.dir\\Debug\\getImage.h_2F9C43F9936E1012.ifc.dt.module.json",
+                "geCore.dir\\Debug\\getImage.h_2F9C43F9936E1012.ifc.dt.d.json",
+                "geCore.dir\\Debug\\getImage.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geCore\\include\\getImage.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\getimage.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

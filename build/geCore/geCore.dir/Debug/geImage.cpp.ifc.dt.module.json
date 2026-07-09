@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geCore.dir\\Debug\\geImage.obj",
+            "outputs": [
+                "geCore.dir\\Debug\\geImage.cpp.ifc.dt.module.json",
+                "geCore.dir\\Debug\\geImage.cpp.ifc.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

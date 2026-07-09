@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geCore.dir\\Debug\\geVertex.obj",
+            "outputs": [
+                "geCore.dir\\Debug\\geVertex.h_56C5578CE7D2CE4D.ifc.dt.module.json",
+                "geCore.dir\\Debug\\geVertex.h_56C5578CE7D2CE4D.ifc.dt.d.json",
+                "geCore.dir\\Debug\\geVertex.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geCore\\include\\geVertex.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\gevertex.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

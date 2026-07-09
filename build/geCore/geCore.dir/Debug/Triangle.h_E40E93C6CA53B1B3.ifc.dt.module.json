@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geCore.dir\\Debug\\Triangle.obj",
+            "outputs": [
+                "geCore.dir\\Debug\\Triangle.h_E40E93C6CA53B1B3.ifc.dt.module.json",
+                "geCore.dir\\Debug\\Triangle.h_E40E93C6CA53B1B3.ifc.dt.d.json",
+                "geCore.dir\\Debug\\Triangle.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "F:\\Repositories\\MaxMald\\software-renderer\\geCore\\include\\Triangle.h",
+                    "source-path": "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\triangle.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

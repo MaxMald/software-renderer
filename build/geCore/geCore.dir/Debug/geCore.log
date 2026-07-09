@@ -1,0 +1,14 @@
+﻿  Building Custom Rule F:/Repositories/MaxMald/software-renderer/geCore/CMakeLists.txt
+  Scanning sources for module dependencies...
+  geTexture.cpp
+  geImage.cpp
+  Compiling...
+  geImage.cpp
+  geTexture.cpp
+F:\Repositories\MaxMald\software-renderer\geCore\src\geImage.cpp(118,11): warning C4189: 'index': local variable is initialized but not referenced
+F:\Repositories\MaxMald\software-renderer\geCore\src\geImage.cpp(321,53): warning C4100: 'src': unreferenced parameter
+F:\Repositories\MaxMald\software-renderer\geCore\src\geImage.cpp(321,37): warning C4100: 'y': unreferenced parameter
+F:\Repositories\MaxMald\software-renderer\geCore\src\geImage.cpp(321,28): warning C4100: 'x': unreferenced parameter
+  geCore.vcxproj -> F:\Repositories\MaxMald\software-renderer\build\bin\Debug\geCore-d.dll
+  "pwsh.exe" no se reconoce como un comando interno o externo,
+  programa o archivo por lotes ejecutable.

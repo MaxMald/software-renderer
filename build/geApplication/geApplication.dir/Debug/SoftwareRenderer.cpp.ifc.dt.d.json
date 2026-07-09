@@ -340,12 +340,12 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\tchar.h",
             "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\softwarerenderer.h",
             "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\resource.h",
-            "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\image.h",
-            "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\commons.h",
+            "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\image.h",
+            "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\gecoreprerequisites.h",
             "f:\\repositories\\maxmald\\software-renderer\\hcutilities\\include\\hc\\utilities\\hccoloruint8.h",
-            "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\triangle.h",
-            "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\vertex.h",
-            "f:\\repositories\\maxmald\\software-renderer\\geapplication\\include\\texture.h"
+            "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\triangle.h",
+            "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\vertex.h",
+            "f:\\repositories\\maxmald\\software-renderer\\gecore\\include\\texture.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

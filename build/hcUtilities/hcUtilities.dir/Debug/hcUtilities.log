@@ -1,7 +1,4 @@
 ﻿  Scanning sources for module dependencies...
-  hcColorUInt8.cpp
-  Compiling...
-  hcColorUInt8.cpp
   hcUtilities.vcxproj -> F:\Repositories\MaxMald\software-renderer\build\bin\Debug\hcUtilities-d.dll
   "pwsh.exe" no se reconoce como un comando interno o externo,
   programa o archivo por lotes ejecutable.

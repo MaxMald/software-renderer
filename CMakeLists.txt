@@ -70,6 +70,7 @@ add_subdirectory(dependencies/IMGUI)
 
 # Graphics Engine Subdirectories
 add_subdirectory(geApplication)
+add_subdirectory(geCore)
 add_subdirectory(hcUtilities)
 
 

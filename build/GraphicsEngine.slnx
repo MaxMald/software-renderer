@@ -9,6 +9,11 @@
 	</Configurations>
 	<Project Path="geApplication/geApplication.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1ef2c614-4d03-348f-828e-afad611843c1" DefaultStartup="true">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="geCore/geCore.vcxproj"/>
+		<BuildDependency Project="hcUtilities/hcUtilities.vcxproj"/>
+	</Project>
+	<Project Path="geCore/geCore.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="80746187-13bb-3213-9a39-c3767fa6cff2">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		<BuildDependency Project="hcUtilities/hcUtilities.vcxproj"/>
 	</Project>
 	<Project Path="hcUtilities/hcUtilities.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0161f704-f64e-3019-99c0-5814c079af0b">
@@ -42,6 +47,7 @@
 			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="dependencies/assimp-6.0.4/code/assimp.vcxproj"/>
 			<BuildDependency Project="geApplication/geApplication.vcxproj"/>
+			<BuildDependency Project="geCore/geCore.vcxproj"/>
 			<BuildDependency Project="hcUtilities/hcUtilities.vcxproj"/>
 			<BuildDependency Project="dependencies/IMGUI/imgui.vcxproj"/>
 			<BuildDependency Project="dependencies/SFML-3.0.2/src/SFML/Main/sfml-main.vcxproj"/>

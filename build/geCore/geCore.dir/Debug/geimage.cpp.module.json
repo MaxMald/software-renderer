@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "geCore.dir\\Debug\\geImage.obj",
+            "outputs": [
+                "F:\\Repositories\\MaxMald\\software-renderer\\build\\geCore\\geCore.dir\\Debug\\vc145.pdb",
+                "geCore.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

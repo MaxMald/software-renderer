@@ -4,13 +4,7 @@
     <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\Commons.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\Image.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\SoftwareRenderer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="F:\Repositories\MaxMald\software-renderer\geApplication\src\Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -18,19 +12,7 @@
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Commons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Image.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\SoftwareRenderer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Texture.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Triangle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\Vertex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="F:\Repositories\MaxMald\software-renderer\geApplication\include\framework.h">
