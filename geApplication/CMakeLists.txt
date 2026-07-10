@@ -48,17 +48,18 @@ target_compile_options(geApplication PRIVATE
 add_dependencies(geApplication
   hcUtilities
   geCore
+  geDXGraphics
 )
 
 # Includes
-target_include_directories(geApplication 
+target_include_directories(geApplication
   PUBLIC "include"
   PUBLIC "${CMAKE_SOURCE_DIR}/hcUtilities/include"
   PUBLIC "${CMAKE_SOURCE_DIR}/geCore/include"
 )
 
 # Linking
-target_link_libraries(geApplication PUBLIC 
+target_link_libraries(geApplication PUBLIC
 	hcUtilities 
 	geCore
 )

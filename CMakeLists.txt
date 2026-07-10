@@ -72,6 +72,7 @@ add_subdirectory(dependencies/IMGUI)
 add_subdirectory(geApplication)
 add_subdirectory(geCore)
 add_subdirectory(hcUtilities)
+add_subdirectory(geDXGraphics)
 
 
 # Editor as startup project
