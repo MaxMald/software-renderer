@@ -28,12 +28,10 @@ namespace ge
      *
      * @param _key The plug-in key.
      * @param _libraryName The library name of the plug-in.
-     * @param _constructorFunctionName The name of the function that builds the
-     * plug-in.
-     * @param _destructorFunctionName The name of the function that destroys the
-     * plug-in.
+     * @param _constructorFunctionName The name of the function that builds the plug-in.
+     * @param _destructorFunctionName The name of the function that destroys the plug-in.
      *
-     * @return
+     * @return True if the plug-in was successfully connected, otherwise returns false.
      */
     bool connectPlugin(
       const String& _key,

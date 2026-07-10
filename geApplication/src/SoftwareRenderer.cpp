@@ -18,6 +18,9 @@ using hc::Vector3f;
 #include <ge/graphics/geTexture.h>
 #include <ge/graphics/geVertex.h>
 #include <ge/graphics/geTriangle.h>
+#include <ge/graphics/geIGraphics.h>
+#include <ge/plugins/gePluginManager.h>
+#include <ge/plugins/geIGraphicsPlugin.h>
 
 using ge::Image;
 using ge::Texture;
@@ -85,6 +88,36 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
   HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_SOFTWARERENDERER));
 
+  // --------------------------------------------------
+  // Connect to plugins
+
+  ge::PluginManager pluginManager;
+  pluginManager.initialize();
+  bool connected = pluginManager.connectPlugin(
+    "graphics",
+    "geDXGraphics" + String(HC_DYN_LIB_SUFIX),
+    "createGraphicsPlugin",
+    "destroyGraphicsPlugin"
+  );
+
+  if (!connected)
+  {
+    std::cerr << "Failed to connect to graphics plugin." << std::endl;
+    return -1;
+  }
+
+  ge::IGraphicsPlugin& graphicsPlugin
+    = reinterpret_cast<ge::IGraphicsPlugin&>(pluginManager.getPlugin("graphics"));
+
+  if (!graphicsPlugin.createGraphicsModule())
+  {
+    std::cerr << "Failed to create graphics module." << std::endl;
+    return -1;
+  }
+
+  ge::IGraphics& graphics = graphicsPlugin.getGraphicsModule();
+
+  // --------------------------------------------------
   // Load Image and create texture
 
   std::filesystem::path path = std::filesystem::current_path();
@@ -207,6 +240,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
       DispatchMessage(&msg);
     }
   }
+
+  // ----------------------------------
+  // Disconnect from plugins
+
+  pluginManager.closeAll();
 
   return (int)msg.wParam;
 }

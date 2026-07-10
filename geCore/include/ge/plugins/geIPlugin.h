@@ -19,7 +19,7 @@ namespace ge
   class GE_CORE_EXPORT IPlugin : public NonCopyable
   {
   public:
-    virtual ~IPlugin() = default;
+    virtual ~IPlugin();
 
     /**
     * Lifecycle hook called immediately after the plugin is loaded and
@@ -36,6 +36,6 @@ namespace ge
     virtual void onClose() = 0;
 
   protected:
-    IPlugin() = default;
+    IPlugin();
   };
 }

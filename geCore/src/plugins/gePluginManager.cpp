@@ -1,4 +1,4 @@
-#include "ge/plugins/hcPluginManager.h"
+#include "ge/plugins/gePluginManager.h"
 #include "ge/plugins/gePluginSlot.h"
 #include "ge/plugins/geIPlugin.h"
 
