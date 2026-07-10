@@ -6,6 +6,9 @@
 #include <hc/utilities/hcVector2.h>
 #include <hc/utilities/hcColor.h>
 #include <hc/utilities/hcColorUInt8.h>
+#include <hc/utilities/hcNonCopyable.h>
+#include <hc/utilities/hcString.h>
+#include <hc/utilities/hcLogService.h>
 
 // HC POD Types
 using hc::UInt8;
@@ -28,6 +31,24 @@ using hc::ColorUInt8;
 
 // HC Containers
 using hc::Vector;
+using hc::UnorderedMap;
+
+// HC Utilities
+using hc::NonCopyable;
+using hc::SharedPtr;
+using hc::UniquePtr;
+using hc::LogService;
+
+using hc::Exception;
+using hc::IOException;
+using hc::OutOfRangeException;
+using hc::InvalidArgumentException;
+using hc::LogicErrorException;
+using hc::RuntimeErrorException;
+using hc::LengthErrorException;
+using hc::RangeErrorException;
+using hc::DomainErrorException;
+using hc::BadAllocException;
 
 #include "geCoreLibraryConfiguration.h"
 
